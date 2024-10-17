@@ -1,0 +1,88 @@
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+
+h4, h5 {
+  color: #ffffff;
+}
+
+
+button {
+  margin: 10px 0;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #007bff;
+  color: white;
+}
+
+.MuiButton-containedSecondary {
+  background-color: #ff4757;
+  color: white;
+}
+
+.MuiButton-containedInfo {
+  background-color: #2ed573;
+  color: white;
+}
+
+.MuiButton-containedError {
+  background-color: #ff6348;
+  color: white;
+}
+
+
+.paper {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.paper:hover {
+  transform: scale(1.05);
+}
+
+
+canvas {
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+
+video {
+  margin: 20px 0;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+h4, h5 {
+  animation: fadeIn 1s ease-in;
+}
+
+
+@media (max-width: 600px) {
+  .paper {
+      margin-bottom: 20px;
+  }
+}
